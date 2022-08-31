@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -166,6 +168,7 @@ header table {
 #top_part tr td{
     width:50%;
 }
+
 #about {
     width:96% !important;
     height:100vh;
