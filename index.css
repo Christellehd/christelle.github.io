@@ -341,7 +341,7 @@ header table {
     color:#18161b;
     font-weight:300;
 }
-#contact form select,option {
+#contact form select{
     width:96%;
     margin:20px 1%;
     padding:8px 10px;
