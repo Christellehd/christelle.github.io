@@ -85,7 +85,7 @@ body::-webkit-scrollbar {
     src: local('Agustina Regular'), url('Agustina.woff') format('woff');
     }
   @import url('https://fonts.cdnfonts.com/css/agustina');
-  
+  p{font-size:17px;}
     figcaption{
         text-transform:uppercase;
         color:#dfd2c3;
@@ -94,10 +94,9 @@ body::-webkit-scrollbar {
 
     .card-deck{
         display:flex;
-        font-size: 1.67em;
         color: #dfd1c3;
         margin-top: 2em;
-        text-align:center;
+        text-align:left;
         flex-direction: row;
         
     }
@@ -115,6 +114,14 @@ body::-webkit-scrollbar {
         padding: 6vh 4vw;
         font-weight: 300;
         text-align: left;
+        color:black!important;
+        background-color: #1a1b1f;
+    }
+     .services{
+        width: 100%;
+        padding: 6vh 4vw;
+        font-weight: 300;
+        text-align: left;
         background-color: #18161b;
     }
    
@@ -127,8 +134,8 @@ body::-webkit-scrollbar {
     }
 
     .cta{
-      background-color:white;
-      margin:8em 0 8em;
+      background-color:#1a1b1f;
+      padding:8em 0 8em;
       display:flex;
       flex-direction: row;
       flex-flow: row wrap; 
@@ -143,7 +150,9 @@ body::-webkit-scrollbar {
     }
       
     .cta{ flex-direction: column;
-      row-gap:20px;}
+      row-gap:20px;
+      text-align:center;
+  }
     
     .review{
         width:30%;
@@ -213,6 +222,7 @@ body::-webkit-scrollbar {
                         
                         <a href="#work">work</a>
                         <a href="#bio">about</a>
+                        <a href="services.html">services</a>
                         <a href="#contact">contact</a>
                     </td>
                 </tr>
@@ -328,20 +338,22 @@ body::-webkit-scrollbar {
        My name is Christelle, I'm a freelance web developer from Lebanon. 
        <br>
        With a strong passion for creating user-centered websites and helping people establish a digital presence, I'm dedicated to delivering high-quality solutions tailored to their needs. 
-       Whether you are a company, a start-up, or an individual, I'm <b>here to help you achieve your goals</b> through effective web design and development.
+       Whether you are a company, a start-up, or an individual, I'm here to help you achieve your goals through effective web design and development.
       
        With my skills and experience in website design and development, I create beautiful user-centered interfaces for brands and individuals who want to 
        make a strong web presence and achieve their goals. 
        
-    As a freelancer, I offer my services worldwide.
+    As a freelancer, I offer my services worldwide.</p>
+ <a href="https://calendly.com/christellehddd"> <br><button class="pulse-grow-on-hover" >Book a call ➜</button></a><br>
+                   
      <center>
-      <br><hr><marquee behavior="scroll" direction="left" scrollamount="10" class="marquee">
-        Wordpress /  Webflow  /  Shopify  / Joomla /  UI/UX Design / Search Engine Optimization  /  Google Analytics  /  Google My Business  /  Google Sites  /  Email Automation  /   Web Management  /  Website Audit  / Website Optimization
-   </marquee><hr><br><br> 
+
+      <br>
+
    <h2 style="text-transform:uppercase;color:#dfd2c3;text-align:center;    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px #dfd2c3;">accreditation</h2>
-   <div class="card-deck">
+   <div class="card-deck" style="text-align:center!important;">
       <div class="card">
         <a href="https://www.linkedin.com/in/christellehaddad/"> <img src="images/certificate-badge.png" width="35%" class="semrush" alt="semrush certificate"> </a></div>
         <div class="card">
@@ -352,8 +364,50 @@ body::-webkit-scrollbar {
            </div>
        </center>
    </p>
+   <hr><marquee behavior="scroll" direction="left" scrollamount="10" class="marquee">
+        Wordpress /  Webflow  /  Shopify  / Joomla /  UI/UX Design / Search Engine Optimization  /  Google Analytics  /  Google My Business  /  Google Sites  /  Email Automation  /   Web Management  /  Website Audit  / Website Optimization
+   </marquee><hr><br><br> 
 </div>
 
+<div class="services">
+    
+    
+ <h2 style="text-transform:uppercase;color:#dfd2c3;">services</h2>
+ <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" style="width:30%;" src="images/web-design-service.png" alt="responsive web UX/UI design">
+    <div class="card-body">
+        <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">responsive web UX/UI design</h4>
+        <p class="card-text">It's essential that your website can adjust effortlessly to various screen sizes and resolutions. My area of expertise lies in responsive web design, which guarantees that your website appears and operates smoothly on a diverse array of devices, such as smartphones, tablets, laptops, and desktops.</br>
+    </div>
+</div>
+<div class="card">
+    <img class="card-img-top" style="width:30%;" src="images/web-development-service.png" alt="web development">
+    <div class="card-body">
+        <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">web development</h4>
+        <p class="card-text">Creating a website is not only about the appearance. My approach involves following the most up-to-date web standards and implementing the most effective SEO techniques to construct websites that are mobile-friendly, exceptionally fast, and optimized for search engines. This ensures that your desired audience can effortlessly find and navigate your website online.</p>
+    </div>
+</div>
+<div class="card">
+    <img class="card-img-top" style="width:30%;" src="images/web-maintenance-service.png" alt="web maintenance and support">
+    <div class="card-body">
+      <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">web maintenance</h4>
+      <p class="card-text">To keep websites functional, my web maintenance and support service ensures that your website remains secure, up to date, and operating smoothly, allowing you to focus on your core business activities while I handle all aspects of website maintenance and provide ongoing support. 
+   </p>
+</div>
+</div>
+<div class="card">
+    <img class="card-img-top" style="width:30%;" src="images/seo-service.png" alt="web SEO Services">
+    <div class="card-body">
+       <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">web SEO Services</h4>
+       <p class="card-text">It's essential to ensure that your website is discoverable by search engines. I offer SEO optimization services to enhance your website's visibility and organic search rankings. By conducting technical SEO best practices, I ensure that your website adheres to SEO best practices. This increases the chances of attracting targeted organic traffic, improving your online presence, and generating valuable leads.</p>
+   </p>
+</div>
+</div>
+
+</div>
+
+</div>
 
 
 <div class="process">
@@ -409,21 +463,21 @@ Let's get started on the project! I will ensure you are consistently updated thr
  <h2 style="text-transform:uppercase;color:#dfd2c3;">what clients say</h2>
  <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" style="width:10%;" src="images/testi.png" alt="">
+    <img class="card-img-top" style="width:10%;" src="images/testi.png" alt="testimonial quote">
     <div class="card-body">
         <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">Hussein S.</h4>
         <p class="card-text">"Christelle managed to redesign and build my Shopify store with amazing speed and quality. She also demonstrated a very good initiative in proposing ideas and great attention to details. Throughout the project, Christelle communicated professionally and effectively, and I would definitely recommend working with her."</p>
     </div>
 </div>
 <div class="card">
-    <img class="card-img-top" style="width:10%;" src="images/testi.png" alt="">
+    <img class="card-img-top" style="width:10%;" src="images/testi.png" alt="testimonial quote">
     <div class="card-body">
         <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">Maya A.</h4>
         <p class="card-text">"I recently worked with Christelle on a website development from scratch and was impressed with her exceptional service and expertise. Christelle listened to my vision, offered creative ideas and made sure the final product exceeded my expectations. I highly recommend working with her!"</p>
     </div>
 </div>
 <div class="card">
-    <img class="card-img-top" style="width:10%;" src="images/testi.png" alt="">
+    <img class="card-img-top" style="width:10%;" src="images/testi.png" alt="testimonial quote">
     <div class="card-body">
       <h4 class="card-title" style="text-transform:uppercase;color:#dfd2c3;">Sylva Z.</h4>
       <p class="card-text">"Christelle absolutely nailed it when it came to taking care of our brand's Shopify store. We couldn't be happier with the results and the top-notch service she provided. Not only was she super supportive, but also incredibly nice to work with. It was an absolute pleasure partnering with her!" </p>
@@ -438,11 +492,11 @@ Let's get started on the project! I will ensure you are consistently updated thr
 <div class="cta">
      <div> 
    
-    <h2 class="" style="text-align:center;color:#171717 !important;margin:auto;">Let's work together to create a website that truly reflects your brand and helps you succeed. 💻 🚀    </h2>
+    <h3 class="" style="text-align:center;color:#dfd2c3 !important;margin:auto;">Let's work together to create a website that truly reflects your brand and helps you succeed. 💻 🚀</h3>
   </div> 
 
  <div style="text-align:center;"> 
-  <a href="https://calendly.com/christellehddd"> <button class="pulse-grow-on-hover" style="color: #18161b; border: 1px solid #18161b;" > BOOK A CALL</button></a>
+  <a href="https://calendly.com/christellehddd"> <button class="pulse-grow-on-hover" style="color: #dfd2c3; border: 1px solid #dfd2c3;" > BOOK A CALL</button></a>
 </div>
 
 </div>
@@ -451,7 +505,7 @@ Let's get started on the project! I will ensure you are consistently updated thr
 
 <div id="contact">
  <h2 style="text-transform:uppercase;">Contact</h2>
-<div><p style="font-size: 1.67em;
+<div><p style="font-size: 17px;
     margin-top: 2em;">If you'd like us to work together or have any inquiries, feel free to get in touch. I am available for freelance projects and collaborations worldwide.
     </p></div>
  <table>
@@ -468,14 +522,7 @@ Let's get started on the project! I will ensure you are consistently updated thr
             <option value="seo">search engine optimization</option>
            <option value="emarketing">email marketing</option>
                </select>
-          <!--
-         <select name="type" required>
-              <option value="type">type of website</option>
-           <option value="informative">informative</option>
-            <option value="ecommerce">ecommerce</option>
-            <option value="portfolio">portfolio</option>
-           <option value="landing">landing page</option>
-               </select>-->
+         
         <textarea placeholder="message" required rows="5" name="describe your business in few sentences" required></textarea><br>
         <button
         data-sitekey="6LdQJ5kfAAAAALtXB9QIAxUn3wZ4wI16-ajCmrKM" 
