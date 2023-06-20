@@ -160,6 +160,7 @@ header table {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px #dfd2c3;
+    font-size:8em;
 }
 .d-none{
     display:none;
